@@ -1,0 +1,32 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "Default Template Extension",
+        "emConf": {
+            "category": "templates",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "stable",
+            "targetVersion": "8.7.0-8.7.99",
+            "version": "8.7"
+        },
+        "extensionKey": "space_base",
+        "name": "Space Base",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [],
+        "plugins": [],
+        "vendorName": "Space"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2019-03-05 03:34",
+        "extension_builder_version": "8.10.4",
+        "be_user": " (1)"
+    }
+}

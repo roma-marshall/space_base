@@ -1,0 +1,48 @@
+mod.web_layout.BackendLayouts {
+  space {
+    title = Space
+    icon = EXT:space_base/Resources/Public/Icons/space.png
+    config {
+      backend_layout {
+        colCount = 1
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Space
+                colPos = 0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+mod.web_layout.BackendLayouts {
+  2column {
+    title = 2 Column
+    icon = EXT:space_base/Resources/Public/Icons/2column.png
+    config {
+      backend_layout {
+        colCount = 2
+        rowCount = 1
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Left
+                colPos = 1
+              }
+              2 {
+                name = Right
+                colPos = 2
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

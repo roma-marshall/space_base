@@ -1,0 +1,23 @@
+{
+    "name": "space/space-base",
+    "type": "typo3-cms-extension",
+    "description": "Default Template Extension",
+    "authors": [],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Space\\SpaceBase\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Space\\SpaceBase\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "space_base": "self.version",
+        "typo3-ter/space-base": "self.version"
+    }
+}
